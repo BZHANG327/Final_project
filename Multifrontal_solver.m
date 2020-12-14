@@ -50,7 +50,7 @@ for N = [5]%,10,15,20,25,30,35,45,55,65,75,85,95,115,128]
     [L,U] = lu(A);
     
     toc
-    fprintf('The error of LU(multifrontal server) when N = %d is %d \n',...
+    fprintf('The error of LU(Dense linear algebra) when N = %d is %d \n',...
         N,norm(A-L*U,inf)) 
 end
 
