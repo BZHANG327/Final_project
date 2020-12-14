@@ -1,4 +1,4 @@
-%Multifront solver
+%Comparing Multifrontal solver with Dense linear algebra
 clear; 
 
 for N = [5]
