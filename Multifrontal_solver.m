@@ -1,7 +1,6 @@
 %Multifront solver
 clear; 
-%Construct the original matrix A
-%-------------------------Construction of Multigrid------------------------
+
 for N = [5]
 %N = 21;
     Z = zeros(N,N);
